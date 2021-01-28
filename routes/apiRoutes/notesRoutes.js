@@ -1,6 +1,6 @@
 const router = require("express").Router();
-const fs = require("fs");
 const uuidv1 = require("uuidv1");
+const fs = require("fs");
 const { validateNote } = require("../../lib/notes");
 
 
